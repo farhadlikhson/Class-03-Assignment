@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.col{
+    flex-basis: 33.33%;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.box_01, .box_02, .box_03{
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    box-shadow: 15px 15px 20px 0px rgba(100, 99, 99, 0.418);
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+.box_01:hover, .box_02:hover, .box_03:hover{
+    box-shadow: -15px -15px 20px 0px rgba(251, 253, 107, 0.418);
+
+}
+
+p{
+    margin: 0;
+    font-size: 22px;
+}
